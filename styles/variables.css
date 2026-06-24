@@ -2,7 +2,7 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
-:root{
+:root {
   --cover-dark: url("../images/cover-image-dark.png");
   --bc-color: #070757;
   --color: #000028;

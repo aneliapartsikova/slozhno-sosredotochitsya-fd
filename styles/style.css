@@ -1,5 +1,5 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
-body{
+body {
   font-family: 'IBM Plex mono' , sans-serif;
   font-weight: 400;
 }
@@ -74,7 +74,7 @@ body{
   text-decoration-color: var(--accent-color);
 }
 
-.cover-title{
+.cover-title {
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   text-shadow: 4px 4px 0 var(--accent-color);
   font-weight: 700;
@@ -139,7 +139,7 @@ h1.cover-title {
   gap: 50px;
 }
 
-.main > *  {
+.main > * {
   min-width: 0;
 }
 
@@ -181,7 +181,7 @@ h1.cover-title {
   line-height: 23.4px;
 }
 
-.text { 
+.text {
   color: var(--text-color);
   font-size: 18px;
   line-height: 23.4px;
@@ -235,7 +235,7 @@ h2.cover-title {
 }
 
 @media (width>767px) {
-  .cover-title{
+  .cover-title {
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
      margin-top: 56px;
   }
@@ -297,7 +297,7 @@ h2.cover-title {
 
   .text {
     word-wrap: break-word;     
-    overflow-wrap: break-word;   
+    overflow-wrap: break-word;
     word-break: break-word;
     padding-right: 3px;
   }
@@ -414,7 +414,7 @@ h2.cover-title {
   }
   
   .list-item_what {
-    flex: 1 1 0; 
+    flex: 1 1 0;
     width: 0;
   }
 
