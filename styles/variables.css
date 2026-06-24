@@ -4,10 +4,10 @@
 */
 :root {
   --cover-dark: url("../images/cover-image-dark.png");
-  --bc-color: #070757;
-  --color: #000028;
-  --accent-color:#FF0070;
-  --bor-color: #DB00FF;
-  --link-bord: #fff;
-  --text-color:#F1B2CE;
+  --bc-color: #000028;
+  --title-ul: #ff0070;
+  --accent-color: #FF0070;
+  --bor-color:  #DB00FF;
+  --text-color: #F1B2CE;
+  --title-text: #000028;
 }

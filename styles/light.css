@@ -1,64 +1,61 @@
-/*
-  Специально для светлой темы при наличии класса.
-  Здесь окажутся стили, которые нужно переопределить принудительно,
-  переключая тему
-*/
-
 :root.theme-light {
   --cover-dark: url("../images/cover-image-light.png");
   --bc-color: #e8d3f1;
-  --color: #353430;
-  --accent-color:#FF8DCB;
-  --bor-color: #FFC2E6;
-  --link-bord: #FF8DCB;
-  --text-color:#353430;
+  --title-ul: #353430;
+  --accent-color: #FF8DCB;
+  --bor-color:  #ffc2e6;
+  --text-color: #353430;
+  --title-text: #353430;
 }
-
-
 
 @media (prefers-color-scheme: light) {
   :root {
-    --cover-dark: url("../images/cover-image-light.png");
-    --bc-color: #e8d3f1;
-    --color: #353430;
-    --accent-color:#FF8DCB;
-    --bor-color: #FF8DCB;
-    --link-bord: #FF8DCB;
-    --text-color:#353430;
+  --cover-dark: url("../images/cover-image-light.png");
+  --bc-color: #e8d3f1;
+  --title-ul: #353430;
+  --accent-color: #FF8DCB;
+  --bor-color:  #ffc2e6;
+  --text-color: #353430;
+  --title-text: #353430;
   }
 
-  .rec {
-  display: none;
-  }
-
-  .rec::after {
+  /* 
+  
+  :root .rec {
     display: none;
   }
 
-  .section-title {
-  color: var(--text-color);
+  :root .rec::after {
+    display: none;
   }
 
-  .header__theme-menu-button {
+  :root .section-title {
     color: var(--text-color);
   }
 
-  .header__theme-menu-button:hover {
+  :root .header__theme-menu-button {
+    color: var(--text-color);
+  }
+
+  :root .header__theme-menu-button:hover {
     border: 1px solid var(--text-color);
   }
 
-  .header__theme-menu-button_active {
+  :root .header__theme-menu-button_active {
     border: 1px solid var(--text-color);
   }
 
-  .decorated-zone::after {
+  :root .decorated-zone::after {
     border-bottom: 1px solid var(--text-color);
     border-left: 1px solid var(--text-color);
   }
 
-  .decorated-zone::before {
+  :root .decorated-zone::before {
     border-top: 1px solid var(--text-color);
     border-right: 1px solid var(--text-color);
   }
-}
 
+  .header__theme-menu-button:focus-visible {
+    
+  }*/
+}
