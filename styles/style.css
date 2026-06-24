@@ -185,7 +185,7 @@ h1.cover-title {
   margin-bottom: 10px;
 }
 
-.text:last-child{
+.text:last-child {
   margin-bottom: 0;
 }
 
@@ -297,7 +297,7 @@ h2.cover-title {
   }
 
   .text {
-    word-wrap: break-word;     
+    word-wrap: break-word; 
     overflow-wrap: break-word;
     word-break: break-word;
     padding-right: 3px;
@@ -328,10 +328,6 @@ h2.cover-title {
   .section-title_how {
     grid-column: 1/2;
   
-  }
-
-  .list-why{
-    grid-column: 2/4;
   }
 
   .title-list {
@@ -387,13 +383,11 @@ h2.cover-title {
   }
 
   .decorated-zone::before {
-  top: 35px;
-  right: 20px;
-}
+    top: 35px;
+  }
 
   .decorated-zone::after {
     bottom:0px;
-    left: 20px;
   }
 }
 
@@ -445,11 +439,9 @@ h2.cover-title {
 
   .decorated-zone::before {
     top: 19px;
-    right: 20px;
   }
 
   .decorated-zone::after {
     bottom:15px;
-    left: 20px;
   }
 }
