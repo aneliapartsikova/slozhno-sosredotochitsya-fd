@@ -90,7 +90,7 @@ h1.cover-title {
 .title-text {
   justify-self: right;
   max-width: 100%;
-  max-height: max-content;;
+  max-height: max-content;
   margin-top: 43px;
   margin-bottom: 48px;
   line-height:23.4px;
@@ -324,7 +324,7 @@ h2.cover-title {
   }
 
   .text {
-    word-wrap: break-word; 
+    word-wrap: break-word;
     overflow-wrap: break-word;
     word-break: break-word;
     padding-right: 3px;
@@ -348,7 +348,7 @@ h2.cover-title {
     grid-template-columns: 1fr 2fr;
     margin-top: 30px;
     margin-left: 2px;
-    gap: 19px;
+    gap: 22px;
     margin-right: 2px;
   }
 
@@ -407,10 +407,6 @@ h2.cover-title {
 
   h2.cover-title {
     margin-top: 33px;
-  }
-
-  .decorated-zone::before {
-    top: 20px;
   }
 
   .decorated-zone::after {
@@ -475,7 +471,6 @@ h2.cover-title {
   }
 
   .decorated-zone::before {
-    top: 20px;
     right: 22px;
   }
 
