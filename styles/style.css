@@ -15,11 +15,12 @@ body {
 
 .header {
   display: grid;
+  grid-template-rows: 1fr min-content 1fr;
+  align-items: center;
   min-height: 668px;
   height: 100vh;
   width: 100%;
   padding: 10px;
-
 }
 
 .decorated-zone {
@@ -50,11 +51,7 @@ body {
 
 .header__theme-menu {
   justify-self: right;
-  margin-top: 52px;
-}
-
-.header__theme-menu-item {
-  margin-top: 3px;
+  margin-bottom: 12px;
 }
 
 .header__theme-menu-button {
@@ -62,7 +59,7 @@ body {
   font-weight: 400;
   font-size: 18px;
   padding: 0px 13px;
-  margin-top: 10px;
+  margin-top: 12px;
 }
 
 .header__theme-menu-button:hover {
@@ -80,7 +77,6 @@ body {
   color: var(--bor-color);
   word-break: break-word;
   line-height:83%;
-  margin-top: 60px;
 }
 
 h1.cover-title {
@@ -91,8 +87,6 @@ h1.cover-title {
   justify-self: right;
   max-width: 100%;
   max-height: max-content;
-  margin-top: 43px;
-  margin-bottom: 48px;
   line-height:23.4px;
 }
 
@@ -157,6 +151,11 @@ h1.cover-title {
 
 .list-title {
   margin-bottom: 10px;
+  margin-top: 3px;
+}
+
+.what,.list-title{
+  margin-top: 1px;
 }
 
 .list-item {
@@ -264,8 +263,8 @@ h2.cover-title {
 
 @media (width>767px) {
   .cover-title {
+    margin-bottom: 5px;
     font-size: clamp(7.5rem, 0.5625rem + 14.4531vw, 9.8125rem);
-     margin-top: 50px;
   }
 
   .header {
@@ -275,10 +274,6 @@ h2.cover-title {
   .rec {
     top: 20px;
     right: 29px;
-  }
-
-  .header__theme-menu {
-    margin-top: 160px;
   }
 
   .decorated-zone::before {
@@ -294,9 +289,8 @@ h2.cover-title {
 
   .title-text {
     max-width: 364px;
-    max-height: max-content;
     margin-right: 1px;
-    margin-top: 35px;
+    margin-bottom: 12px;
   }
 
   .main {
@@ -335,7 +329,7 @@ h2.cover-title {
   }
 
   .section-title_what {
-    margin-top: 5px;
+    margin-top: 2px;
     margin-bottom: 22px;
     grid-column: 1/2;
   }
@@ -346,9 +340,9 @@ h2.cover-title {
 
   .how {
     grid-template-columns: 1fr 2fr;
-    margin-top: 30px;
+    margin-top: 28px;
     margin-left: 2px;
-    gap: 22px;
+    gap: 19px;
     margin-right: 2px;
   }
 
@@ -363,7 +357,7 @@ h2.cover-title {
   }
 
   .image {
-    margin-top: 32px;
+    margin-top: 30px;
   }
 
   .img-list {
@@ -406,7 +400,7 @@ h2.cover-title {
   }
 
   h2.cover-title {
-    margin-top: 33px;
+    margin-top: 38px;
   }
 
   .decorated-zone::after {
@@ -425,10 +419,6 @@ h2.cover-title {
 }
 
 @media (width>1023px) {
-  .cover-title {
-      margin-top: 57px;
-    }
-
   .header {
       padding-left: 0;
       padding-top: 5px;
@@ -436,9 +426,8 @@ h2.cover-title {
 
   .header__theme-menu {
     justify-self: center;
-    margin-top: 2px;
-    margin-bottom: 140px;
     margin-left: 20px;
+    align-self: start;
   }
 
   .header__theme-menu-list {
@@ -448,7 +437,6 @@ h2.cover-title {
 
   .title-text {
     max-width: 491px;
-    max-height: min-content;
   }
 
   .list-what {
@@ -499,5 +487,9 @@ h2.cover-title {
   .rec {
     top: 24px;
     right: 29px;
+  }
+
+  h2.cover-title {
+    margin-top: 0px;
   }
 }
