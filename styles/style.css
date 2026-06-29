@@ -154,7 +154,7 @@ h1.cover-title {
   margin-top: 3px;
 }
 
-.what,.list-title{
+.what,.list-title {
   margin-top: 1px;
 }
 
@@ -282,7 +282,7 @@ h2.cover-title {
   }
 
   .decorated-zone::after {
-    bottom: 20px;
+    bottom: 15px;
     left: 20px;
  
   }
@@ -401,10 +401,6 @@ h2.cover-title {
 
   h2.cover-title {
     margin-top: 38px;
-  }
-
-  .decorated-zone::after {
-    bottom:15px;
   }
 
   .decorated-zone-footer::before {
